@@ -1,0 +1,8 @@
+project_id = "vxbfnqrdyqcssyukikwo"
+
+[functions.sepay-webhook]
+verify_jwt = false
+
+# Chat widget gọi từ trình duyệt (có thể chưa đăng nhập)
+[functions.ai-chat]
+verify_jwt = false

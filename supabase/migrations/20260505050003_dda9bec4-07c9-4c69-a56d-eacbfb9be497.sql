@@ -1,0 +1,2 @@
+ALTER TABLE public.transactions DROP CONSTRAINT IF EXISTS transactions_transaction_code_key;
+CREATE UNIQUE INDEX IF NOT EXISTS transactions_reference_code_unique ON public.transactions(reference_code) WHERE reference_code IS NOT NULL;

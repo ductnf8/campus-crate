@@ -1,0 +1,1 @@
+UPDATE public.profiles SET balance = balance + 7000 WHERE id = '4bbe4ed5-b3bb-476f-9511-9b0d3fb14db6';
