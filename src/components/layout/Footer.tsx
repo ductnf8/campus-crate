@@ -37,9 +37,33 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-sm mb-4 text-foreground">Liên hệ</h4>
             <div className="flex flex-col gap-2.5 text-sm text-muted-foreground">
-              <span className="flex items-center gap-2"><Mail className="h-4 w-4" /> support@stumarket.vn</span>
-              <span className="flex items-center gap-2"><Phone className="h-4 w-4" /> 1900-xxxx</span>
-              <span className="flex items-center gap-2"><MapPin className="h-4 w-4" /> Việt Nam</span>
+              <div className="flex flex-col gap-2">
+                <a
+                    href="mailto:duc27tb@gmail.com"
+                    className="flex items-center gap-2 hover:text-primary"
+                >
+                  <Mail className="h-4 w-4" />
+                  duc27tb@gmail.com
+                </a>
+
+                <a
+                    href="tel:0869098696"
+                    className="flex items-center gap-2 hover:text-primary"
+                >
+                  <Phone className="h-4 w-4" />
+                  0869098696
+                </a>
+
+                <a
+                    href="https://www.google.com/maps/place/55+Ng.+267+%C4%90.+H%E1%BB%93+T%C3%B9ng+M%E1%BA%ADu,+T%E1%BB%AB+Li%C3%AAm,+H%C3%A0+N%E1%BB%99i,+Vi%E1%BB%87t+Nam/@21.0406413,105.7593083,17z/data=!3m1!4b1!4m6!3m5!1s0x313454c0f4826485:0x4be1d8ddc3b72a94!8m2!3d21.0406363!4d105.7618886!16s%2Fg%2F11s8dvgx9n?entry=ttu&g_ep=EgoyMDI2MDUxMy4wIKXMDSoASAFQAw%3D%3D"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center gap-2 hover:text-primary"
+                >
+                  <MapPin className="h-4 w-4" />
+                  Hồ Tùng Mậu, Nam Từ Liêm, Hà Nội
+                </a>
+              </div>
             </div>
           </div>
         </div>
